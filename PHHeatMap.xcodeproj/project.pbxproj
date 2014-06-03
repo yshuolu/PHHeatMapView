@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2093CA1934F99200488A36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2093C91934F99200488A36 /* Foundation.framework */; };
+		8D2093CC1934F99300488A36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2093CB1934F99300488A36 /* CoreGraphics.framework */; };
+		8D2093CE1934F99300488A36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2093CD1934F99300488A36 /* UIKit.framework */; };
+		8D2093D41934F99300488A36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D2093D21934F99300488A36 /* InfoPlist.strings */; };
+		8D2093D61934F99300488A36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2093D51934F99300488A36 /* main.m */; };
+		8D2093DA1934F99300488A36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2093D91934F99300488A36 /* AppDelegate.m */; };
+		8D2093DC1934F99300488A36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D2093DB1934F99300488A36 /* Images.xcassets */; };
+		8D2093E31934F99300488A36 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2093E21934F99300488A36 /* XCTest.framework */; };
+		8D2093E41934F99300488A36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2093C91934F99200488A36 /* Foundation.framework */; };
+		8D2093E51934F99300488A36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2093CD1934F99300488A36 /* UIKit.framework */; };
+		8D2093ED1934F99300488A36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D2093EB1934F99300488A36 /* InfoPlist.strings */; };
+		8D2093EF1934F99300488A36 /* PHHeatMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2093EE1934F99300488A36 /* PHHeatMapTests.m */; };
+		8D2093FA1934F9BD00488A36 /* PHHeatMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2093F91934F9BD00488A36 /* PHHeatMapView.m */; };
+		8D687187193D219C001161C3 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D687186193D219C001161C3 /* test.png */; };
+		8D687189193D22DB001161C3 /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D687188193D22DB001161C3 /* test2.jpg */; };
+		8D687197193D406C001161C3 /* colorScheme.json in Resources */ = {isa = PBXBuildFile; fileRef = 8D68718D193D406C001161C3 /* colorScheme.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D2093E61934F99300488A36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D2093BE1934F99200488A36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D2093C51934F99200488A36;
+			remoteInfo = PHHeatMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D2093C61934F99200488A36 /* PHHeatMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHHeatMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2093C91934F99200488A36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D2093CB1934F99300488A36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D2093CD1934F99300488A36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D2093D11934F99300488A36 /* PHHeatMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PHHeatMap-Info.plist"; sourceTree = "<group>"; };
+		8D2093D31934F99300488A36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D2093D51934F99300488A36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D2093D71934F99300488A36 /* PHHeatMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHHeatMap-Prefix.pch"; sourceTree = "<group>"; };
+		8D2093D81934F99300488A36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D2093D91934F99300488A36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D2093DB1934F99300488A36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8D2093E11934F99300488A36 /* PHHeatMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PHHeatMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2093E21934F99300488A36 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8D2093EA1934F99300488A36 /* PHHeatMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PHHeatMapTests-Info.plist"; sourceTree = "<group>"; };
+		8D2093EC1934F99300488A36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D2093EE1934F99300488A36 /* PHHeatMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHHeatMapTests.m; sourceTree = "<group>"; };
+		8D2093F81934F9BD00488A36 /* PHHeatMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHHeatMapView.h; sourceTree = "<group>"; };
+		8D2093F91934F9BD00488A36 /* PHHeatMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHHeatMapView.m; sourceTree = "<group>"; };
+		8D687186193D219C001161C3 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		8D687188193D22DB001161C3 /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
+		8D68718D193D406C001161C3 /* colorScheme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = colorScheme.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D2093C31934F99200488A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2093CC1934F99300488A36 /* CoreGraphics.framework in Frameworks */,
+				8D2093CE1934F99300488A36 /* UIKit.framework in Frameworks */,
+				8D2093CA1934F99200488A36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2093DE1934F99300488A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2093E31934F99300488A36 /* XCTest.framework in Frameworks */,
+				8D2093E51934F99300488A36 /* UIKit.framework in Frameworks */,
+				8D2093E41934F99300488A36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D2093BD1934F99200488A36 = {
+			isa = PBXGroup;
+			children = (
+				8D687188193D22DB001161C3 /* test2.jpg */,
+				8D687186193D219C001161C3 /* test.png */,
+				8D2093CF1934F99300488A36 /* PHHeatMap */,
+				8D2093E81934F99300488A36 /* PHHeatMapTests */,
+				8D2093C81934F99200488A36 /* Frameworks */,
+				8D2093C71934F99200488A36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D2093C71934F99200488A36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D2093C61934F99200488A36 /* PHHeatMap.app */,
+				8D2093E11934F99300488A36 /* PHHeatMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D2093C81934F99200488A36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D2093C91934F99200488A36 /* Foundation.framework */,
+				8D2093CB1934F99300488A36 /* CoreGraphics.framework */,
+				8D2093CD1934F99300488A36 /* UIKit.framework */,
+				8D2093E21934F99300488A36 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D2093CF1934F99300488A36 /* PHHeatMap */ = {
+			isa = PBXGroup;
+			children = (
+				8D2093D81934F99300488A36 /* AppDelegate.h */,
+				8D2093D91934F99300488A36 /* AppDelegate.m */,
+				8D2093F81934F9BD00488A36 /* PHHeatMapView.h */,
+				8D2093F91934F9BD00488A36 /* PHHeatMapView.m */,
+				8D68718D193D406C001161C3 /* colorScheme.json */,
+				8D2093DB1934F99300488A36 /* Images.xcassets */,
+				8D2093D01934F99300488A36 /* Supporting Files */,
+			);
+			path = PHHeatMap;
+			sourceTree = "<group>";
+		};
+		8D2093D01934F99300488A36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D2093D11934F99300488A36 /* PHHeatMap-Info.plist */,
+				8D2093D21934F99300488A36 /* InfoPlist.strings */,
+				8D2093D51934F99300488A36 /* main.m */,
+				8D2093D71934F99300488A36 /* PHHeatMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D2093E81934F99300488A36 /* PHHeatMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D2093EE1934F99300488A36 /* PHHeatMapTests.m */,
+				8D2093E91934F99300488A36 /* Supporting Files */,
+			);
+			path = PHHeatMapTests;
+			sourceTree = "<group>";
+		};
+		8D2093E91934F99300488A36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D2093EA1934F99300488A36 /* PHHeatMapTests-Info.plist */,
+				8D2093EB1934F99300488A36 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D2093C51934F99200488A36 /* PHHeatMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D2093F21934F99300488A36 /* Build configuration list for PBXNativeTarget "PHHeatMap" */;
+			buildPhases = (
+				8D2093C21934F99200488A36 /* Sources */,
+				8D2093C31934F99200488A36 /* Frameworks */,
+				8D2093C41934F99200488A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHHeatMap;
+			productName = PHHeatMap;
+			productReference = 8D2093C61934F99200488A36 /* PHHeatMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D2093E01934F99300488A36 /* PHHeatMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D2093F51934F99300488A36 /* Build configuration list for PBXNativeTarget "PHHeatMapTests" */;
+			buildPhases = (
+				8D2093DD1934F99300488A36 /* Sources */,
+				8D2093DE1934F99300488A36 /* Frameworks */,
+				8D2093DF1934F99300488A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D2093E71934F99300488A36 /* PBXTargetDependency */,
+			);
+			name = PHHeatMapTests;
+			productName = PHHeatMapTests;
+			productReference = 8D2093E11934F99300488A36 /* PHHeatMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D2093BE1934F99200488A36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Phineas Lue";
+				TargetAttributes = {
+					8D2093E01934F99300488A36 = {
+						TestTargetID = 8D2093C51934F99200488A36;
+					};
+				};
+			};
+			buildConfigurationList = 8D2093C11934F99200488A36 /* Build configuration list for PBXProject "PHHeatMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D2093BD1934F99200488A36;
+			productRefGroup = 8D2093C71934F99200488A36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D2093C51934F99200488A36 /* PHHeatMap */,
+				8D2093E01934F99300488A36 /* PHHeatMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D2093C41934F99200488A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2093D41934F99300488A36 /* InfoPlist.strings in Resources */,
+				8D2093DC1934F99300488A36 /* Images.xcassets in Resources */,
+				8D687197193D406C001161C3 /* colorScheme.json in Resources */,
+				8D687189193D22DB001161C3 /* test2.jpg in Resources */,
+				8D687187193D219C001161C3 /* test.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2093DF1934F99300488A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2093ED1934F99300488A36 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D2093C21934F99200488A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2093DA1934F99300488A36 /* AppDelegate.m in Sources */,
+				8D2093FA1934F9BD00488A36 /* PHHeatMapView.m in Sources */,
+				8D2093D61934F99300488A36 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2093DD1934F99300488A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2093EF1934F99300488A36 /* PHHeatMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D2093E71934F99300488A36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D2093C51934F99200488A36 /* PHHeatMap */;
+			targetProxy = 8D2093E61934F99300488A36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D2093D21934F99300488A36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D2093D31934F99300488A36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D2093EB1934F99300488A36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D2093EC1934F99300488A36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D2093F01934F99300488A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D2093F11934F99300488A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D2093F31934F99300488A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PHHeatMap/PHHeatMap-Prefix.pch";
+				INFOPLIST_FILE = "PHHeatMap/PHHeatMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D2093F41934F99300488A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PHHeatMap/PHHeatMap-Prefix.pch";
+				INFOPLIST_FILE = "PHHeatMap/PHHeatMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8D2093F61934F99300488A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PHHeatMap.app/PHHeatMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PHHeatMap/PHHeatMap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PHHeatMapTests/PHHeatMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8D2093F71934F99300488A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PHHeatMap.app/PHHeatMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PHHeatMap/PHHeatMap-Prefix.pch";
+				INFOPLIST_FILE = "PHHeatMapTests/PHHeatMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D2093C11934F99200488A36 /* Build configuration list for PBXProject "PHHeatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2093F01934F99300488A36 /* Debug */,
+				8D2093F11934F99300488A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D2093F21934F99300488A36 /* Build configuration list for PBXNativeTarget "PHHeatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2093F31934F99300488A36 /* Debug */,
+				8D2093F41934F99300488A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D2093F51934F99300488A36 /* Build configuration list for PBXNativeTarget "PHHeatMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2093F61934F99300488A36 /* Debug */,
+				8D2093F71934F99300488A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D2093BE1934F99200488A36 /* Project object */;
+}
