@@ -10,7 +10,7 @@
 
 #define MAX_ALPHA_INT 180
 
-#define EFFECT_RADIUS 120
+#define EFFECT_RADIUS 72
 
 #define SHADOW_BIAS 1500
 
@@ -143,7 +143,11 @@
         data[i-1] = self.pallete[palleteOffset+2] * alphaScale;
     }
     
-    [[UIImage imageWithCGImage:CGBitmapContextCreateImage(context)] drawInRect:rect];
+    CGImageRef cgImage = CGBitmapContextCreateImage(context);
+    
+    [[UIImage imageWithCGImage:cgImage] drawInRect:rect];
+    
+    CGImageRelease(cgImage);
     
     //release bitmap context
     CGContextRelease(context);

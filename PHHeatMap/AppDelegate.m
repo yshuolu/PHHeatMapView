@@ -51,6 +51,8 @@
                     [NSValue valueWithCGPoint:CGPointMake(200, 500)]
                     ];
     
+    self.points = [self generateDataPoints];
+    
     [self.window addSubview:self.heatmapView];
     
     self.window.backgroundColor = [UIColor whiteColor];
@@ -93,6 +95,36 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(NSArray*)generateDataPoints{
+    CGFloat verticalMargin = 33;
+    CGFloat horizontalMargin = 60;
+    
+    NSMutableArray *points = [NSMutableArray array];
+    
+    for (int col=1; col<=4; col++) {
+        if (col == 1) {
+            //6 points
+            CGFloat x = horizontalMargin;
+            for (int row=1; row<=5; row++) {
+                CGFloat y = row * verticalMargin;
+                
+                [points addObject:[NSValue valueWithCGPoint:CGPointMake(x, y)]];
+            }
+        }else{
+            //14 points
+            CGFloat x = col * horizontalMargin;
+            
+            for (int row=1; row<=14; row++) {
+                CGFloat y = row * verticalMargin;
+                
+                [points addObject:[NSValue valueWithCGPoint:CGPointMake(x, y)]];
+            }
+        }
+    }
+    
+    return [NSArray arrayWithArray:points];
 }
 
 @end

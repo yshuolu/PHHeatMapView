@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A2CCFD7F-5A03-40C9-A3D2-9948E1637243</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PHHeatMap</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B27285F7-7833-499A-8FA4-1CA15AD131B4</key>
+		<string>https://github.com/Phineas-z/PHHeatMapView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PHHeatMap.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B27285F7-7833-499A-8FA4-1CA15AD131B4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Phineas-z/PHHeatMapView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B27285F7-7833-499A-8FA4-1CA15AD131B4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B27285F7-7833-499A-8FA4-1CA15AD131B4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PHHeatMap</string>
+		</dict>
+	</array>
+</dict>
+</plist>
