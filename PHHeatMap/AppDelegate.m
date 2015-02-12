@@ -34,7 +34,7 @@
     
     self.heatmapView = [[PHHeatMapView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]andDataPoints:testDict];
     
-    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(setHeat:) userInfo:nil repeats:YES];
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(setHeat:) userInfo:nil repeats:YES];
     
     [timer fire];
     
